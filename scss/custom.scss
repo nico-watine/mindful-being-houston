@@ -1,3 +1,16 @@
 @import '_settings.scss';
 
 @import '_blocks.scss';
+
+
+
+// -----------------------------------------------------------
+// |            Was already on site, keep for now            |
+// -----------------------------------------------------------
+@media (min-width: 560px) and (max-width: 768px) {
+	#mk-footer .mk-col-1-2 {
+		width: 50%!important;
+		display: inline-block!important;
+		float: left!important;
+	}
+}
